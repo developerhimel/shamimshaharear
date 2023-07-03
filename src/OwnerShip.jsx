@@ -1,4 +1,5 @@
 import React from "react";
+import { SectionWrapper } from "./hoc";
 
 function OwnerShip() {
   return (
@@ -10,4 +11,4 @@ function OwnerShip() {
   );
 }
 
-export default OwnerShip;
+export default SectionWrapper(OwnerShip, "ownership");

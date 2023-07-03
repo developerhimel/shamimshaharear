@@ -1,3 +1,4 @@
+import OwnerShip from "./OwnerShip";
 import {
   About,
   Contact,
@@ -27,6 +28,7 @@ const App = () => {
         <Contact />
         <StarsCanvas />
         <Footer />
+        <OwnerShip />
       </div>
     </div>
   );
